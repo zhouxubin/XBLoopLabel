@@ -7,9 +7,9 @@
 
 用法  
 
-`XBTextLoopView *loopView = [XBTextLoopView textLoopViewWith:@[@"我是跑马灯😆1", @"我是跑马灯😆2", @"我是跑马灯😆3"] loopInterval:1.0 initWithFrame:CGRectMake(100, 100, 200, 40) selectBlock:^(NSString *selectString, NSInteger index) {  
-NSLog(@"%@===index%ld", selectString, index);  
-}];  
+`XBTextLoopView *loopView = [XBTextLoopView textLoopViewWith:@[@"我是跑马灯😆1", @"我是跑马灯😆2", @"我是跑马灯😆3"] loopInterval:1.0 initWithFrame:CGRectMake(100, 100, 200, 40) selectBlock:^(NSString *selectString, NSInteger index) {  
+  NSLog(@"%@===index%ld", selectString, index);   
+}];
 [self.view addSubview:loopView];`
 ### ViewController.m  
 具体代码如下：  
